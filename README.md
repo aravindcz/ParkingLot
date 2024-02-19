@@ -43,6 +43,92 @@ The low-level design includes details about the class interactions, data structu
 
 Follow the on-screen prompts to interact with the parking lot system.
 
+## Example Usage
+
+Assuming a parking lot with 6 slots, the following commands can be used:
+
+1. **Create Parking Lot:**
+    ```bash
+    $ create_parking_lot 6
+    ```
+    Output: 
+    ```
+    Created a parking lot with 6 slots
+    ```
+
+2. **Park Cars:**
+    ```bash
+    $ park KA-01-HH-1234 White
+    Allocated slot number: 1
+
+    $ park KA-01-HH-9999 White
+    Allocated slot number: 2
+
+    $ park KA-01-BB-0001 Black
+    Allocated slot number: 3
+    ```
+
+3. **Check Parking Lot Status:**
+    ```bash
+    $ status
+    ```
+    Output:
+    ```
+    Slot No. Registration No Colour
+    1 KA-01-HH-1234 White
+    2 KA-01-HH-9999 White
+    3 KA-01-BB-0001 Black
+    ```
+
+4. **Retrieve Registration Numbers for Cars with Colour:**
+    ```bash
+    $ registration_numbers_for_cars_with_colour White
+    ```
+    Output:
+    ```
+    Registration No Colour
+    KA-01-HH-1234   White
+    KA-01-HH-9999   White
+    ```
+
+5. **Retrieve Slot Number for Car with Registration Number:**
+    ```bash
+    $ slot_number_for_car_with_registration_number KA-01-HH-1234
+    ```
+    Output:
+    ```
+    Registration No Slot Number
+    KA-01-HH-1234   1
+    ```
+
+6. **Retrieve Slot Numbers for Cars with Colour:**
+    ```bash
+    $ slot_numbers_for_cars_with_colour White
+    ```
+    Output:
+    ```
+    Color Slot Number
+    White   1, 2
+    ```
+
+7. **Leave Parking Lot:**
+    ```bash
+    $ leave 2
+    Slot number 2 is free
+    ```
+
+8. **Exit:**
+    ```bash
+    $ exit
+    ```
+    Output:
+    ```
+    Exiting the program.
+    ```
+
+Feel free to modify and run these commands to explore the parking lot system.
+
+
 ## Contact Information
 
 For any discussions or clarifications, feel free to reach out via email: aravindcnair24@gmail.com
