@@ -37,9 +37,9 @@ The low-level design includes details about the class interactions, data structu
 ## How to Run the Code
 
 1. Clone the repository: `git clone https://github.com/aravindcz/ParkingLot.git`
-2. Navigate to the project directory: `cd com/aravindcz/parkinglot/`
-3. Compile the Java files: `javac model/*.java service/*.java ParkingLotCommandProcessor.java ParkingLotMain.java`
-4. Run the main class: `java ParkingLotMain`
+2. Navigate to the project directory: `cd ParkingLot`
+3. Compile the Java files: `javac com/aravindcz/parkinglot/model/*.java com/aravindcz/parkinglot/service/*.java com/aravindcz/parkinglot/ParkingLotCommandProcessor.java com/aravindcz/parkinglot/ParkingLotMain.java`
+4. Run the main class: `java -cp . com.aravindcz.parkinglot.ParkingLotMain`
 
 Follow the on-screen prompts to interact with the parking lot system.
 
