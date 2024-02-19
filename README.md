@@ -36,8 +36,8 @@ The low-level design includes details about the class interactions, data structu
 
 ## How to Run the Code
 
-1. Clone the repository: `git clone https://github.com/yourusername/parking-lot.git`
-2. Navigate to the project directory: `cd parking-lot`
+1. Clone the repository: `git clone https://github.com/aravindcz/ParkingLot.git`
+2. Navigate to the project directory: `cd ParkingLot`
 3. Compile the Java files: `javac *.java`
 4. Run the main class: `java ParkingLotMain`
 
