@@ -2,6 +2,10 @@
 
 This project implements a Parking Lot Management System, providing an automated ticketing system for a parking lot without human intervention.
 
+## Minimum Java Version
+
+This project requires Java 8 or later to run.
+
 ## Tradeoffs Made
 
 One of the tradeoffs made in this implementation is the utilization of hash maps for efficient data retrieval. While hash maps offer constant time complexity for key-based operations, they consume additional memory. This tradeoff is made to optimize time complexity for essential operations like finding registration numbers based on color or slot numbers based on car registration.
