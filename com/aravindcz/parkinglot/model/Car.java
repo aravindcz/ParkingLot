@@ -1,4 +1,4 @@
-package model;
+package com.aravindcz.parkinglot.model;
 
 public class Car {
     private String registrationNumber;

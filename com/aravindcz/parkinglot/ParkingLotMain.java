@@ -1,5 +1,8 @@
-import service.IParkingLotManager;
-import service.ParkingLotManager;
+package com.aravindcz.parkinglot;
+
+
+import com.aravindcz.parkinglot.service.IParkingLotManager;
+import com.aravindcz.parkinglot.service.ParkingLotManager;
 
 import java.util.*;
 public class ParkingLotMain {

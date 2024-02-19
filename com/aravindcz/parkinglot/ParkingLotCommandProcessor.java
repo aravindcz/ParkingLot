@@ -1,4 +1,7 @@
-import service.IParkingLotManager;
+package com.aravindcz.parkinglot;
+
+
+import com.aravindcz.parkinglot.service.IParkingLotManager;
 
 import java.util.Scanner;
 

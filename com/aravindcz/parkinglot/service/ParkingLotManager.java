@@ -1,8 +1,10 @@
-package service;
+package com.aravindcz.parkinglot.service;
 
-import model.Car;
-import model.MinHeap;
-import model.ParkingSlot;
+
+
+import com.aravindcz.parkinglot.model.Car;
+import com.aravindcz.parkinglot.model.MinHeap;
+import com.aravindcz.parkinglot.model.ParkingSlot;
 
 import java.util.*;
 

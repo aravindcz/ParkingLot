@@ -1,6 +1,5 @@
-package model;
+package com.aravindcz.parkinglot.model;
 
-import model.Car;
 
 public class ParkingSlot {
     private Car car;

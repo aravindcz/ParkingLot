@@ -1,4 +1,4 @@
-package model;
+package com.aravindcz.parkinglot.model;
 
 import java.util.PriorityQueue;
 

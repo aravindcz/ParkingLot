@@ -1,4 +1,4 @@
-package service;
+package com.aravindcz.parkinglot.service;
 
 import java.util.HashSet;
 
